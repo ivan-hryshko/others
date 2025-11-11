@@ -1,0 +1,22 @@
+{
+  "name": "fill-missed-charging-points",
+  "version": "1.0.0",
+  "description": "Script to synchronize charging points between cloud MQTT and OCPP database",
+  "main": "fill_missed_charging_points.js",
+  "scripts": {
+    "start": "node fill_missed_charging_points.js"
+  },
+  "keywords": [
+    "mqtt",
+    "ocpp",
+    "charging-stations"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mqtt": "^5.0.0",
+    "mysql2": "^3.0.0",
+    "sequelize": "^6.35.0"
+  }
+}
