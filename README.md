@@ -1,1 +1,1 @@
-# others
+# repository for different scripts
